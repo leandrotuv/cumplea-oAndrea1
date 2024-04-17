@@ -1,0 +1,151 @@
+body {
+    background-image: url('https://w.forfun.com/fetch/85/855b1135ca8998149c1976a0b8661fca.jpeg');
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  
+  .color {
+    color: #071ef1;;
+  }
+  
+  .color1 {
+    color: #1c03ff;
+  }
+  
+
+.timer-container {
+	text-align: center;
+
+}
+
+.timer {
+	font-size: 48px;
+	font-weight: bold;
+	color: rgb(7, 70, 243);
+} 
+
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 3vw;
+    color: rgb(10, 7, 241);
+    text-shadow: 1px 1px 1px rgb(94, 27, 27);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 8vw;
+    }
+  }
+  .line-separator {
+    width: 100%;
+    height: 4px;
+    background-color: #0d09f8; /* Color de la línea */
+    margin: 20px 0; /* Espacio alrededor de la línea */
+    position: relative;
+  }
+  
+  .line-separator::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 50px; /* Longitud de los extremos decorativos */
+    height: 4px;
+    background-color: #ffd900; /* Color de la línea */
+  }
+  
+  .line-separator::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 50px; /* Longitud de los extremos decorativos */
+    height: 4px;
+    background-color: #e6d00a; /* Color de la línea */
+  }
+  .social-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #def512; /* Color del texto de los enlaces */
+    font-weight: bold;
+}
+
+.social-link:hover {
+    color: #e6082d; /* Cambiar color al pasar el ratón por encima */
+}
+.social-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0919f7; /* Color de fondo del menú */
+  padding: 10px 0;
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+.separator {
+  color: #4df30b; /* Color de las líneas separadoras */
+  margin: 0 5px; /* Espacio entre las líneas y el texto */
+}
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slide {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+img {
+  border: 2px solid #1406df; /* Ancho del borde y color */
+  border-radius: 15px; /* Radio de los bordes para que sean redondeados */
+  box-shadow: 0 0 10px rgba(16, 46, 212, 0.2); /* Sombra suave alrededor de la imagen */
+}
+body {
+  margin: 0;
+ /* overflow: hidden; */
+}
+
+body {
+  margin: 0;
+  /*overflow: hidden; */
+}
+body {
+  margin: 0;
+  /*  overflow: hidden; */
+}
+
+body {
+  margin: 0;
+  /*overflow: hidden;*/
+}
+
+
+
+
+
+
+
+
+  
+  
+

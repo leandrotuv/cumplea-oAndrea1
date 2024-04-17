@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Juegos creados para el casamiento de Nancy y Kevin, el 11 de Noviembre de 2023"/>
+    <link rel="shortcut icon" href="img/FavIcon.ico" />
+    <title>Nancy y Kevin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Quattrocento&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/white-star-free" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="style1-ahorcado.css" />
+    <link rel="stylesheet" href="style1-memo.css">
+    <link rel="stylesheet" href="style1-quiz.css">
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+
+  <body>
+      
+    <main>
+      <!-- Pantalla inicial -->
+      <section class="pantalla-inicial">
+        <h1><span class="bienvenidos">Bienvenidos a jueguito que te hice para tu cumpleaño de</span> <br>
+          <span id="nyk">Andrea Montiel!</span></h1>
+        <div class="seleccion-pareja">
+          <div class="div-pareja">
+            <img src="https://scontent.fuio10-1.fna.fbcdn.net/v/t39.30808-6/415800961_749690973863234_5064884191667174594_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGVRlYIdFs_ZQjncxiRZgoa5KmZ1EMyX7fkqZnUQzJft_sJ8u7Ji1XxN8zW5dhMp2xBCqirQykphjspTS0krhp0&_nc_ohc=S3_YRdJclz8Ab5TRZmb&_nc_ht=scontent.fuio10-1.fna&oh=00_AfBpeLLLUTHJ4PGzFScw47R-jgzlWGA01rdGQyOuJ65eyg&oe=66250DC4" alt="Imagen de Andrea" class="pareja">
+          </div>
+          <div class="seleccion-juegos">
+            <h3>Cuál juego te gustaría jugar?</h3>
+            <button class="btn btn-juego-ahorcado">Juego del ahorcado</button>
+            <button class="btn btn-juego-memoria">Juego de memoria</button>
+            <button class="btn btn-juego-quiz">que conoces sobre mi y que te gustaria saber?</button>
+          </div>
+        </div>
+        <div class="puntajes">
+          <p class="puntaje-total">Puntaje total: 0</p>
+          <p class="puntaje-aclaracion"><i>Cuidado! Si recargás la pagina, perdés tu puntaje.</i></p>
+        </div>
+      </section>
+
+      
+      <!-- Juego ahorcado -->
+      <section class="section-juego-ahorcado">
+        <div>
+          <h2 class="h2juegos">adivina que objeto cargar la novia en una boda!</h2>
+        </div>
+        <div class="ahorcado-img-palabra">
+          <div class="img-palabra-pista">
+            <div class="div-imagen-ahorcado">
+              <img async src="img/ahorcado5.png" alt="Imagen para el juego del ahorcado" class='imagen imagen-ahorcado'>
+            </div>
+            <div class="div-palabra">
+              <div class="intentos-finjuego">
+                <p class="intentos-text">Intentos restantes: <span class="intentos"></span></p>
+              </div>
+              <p id="palabra-a-adivinar"></p>
+              <span class="span-pista"></span>
+            </div>
+          </div>
+          <div class="div-pista-botones">
+            <div class="botones-juego">
+              <button class="btn nuevo-juego btn2">Nueva palabra</button>
+              <button  class="btn btn-pista btn2">Dame una pista!</button>
+              <button class= "btn volver-ahorcado btn2">Volver al inicio</button>
+            </div>
+          </div>
+          <p class="palabras-info">Palabras relacionadas a sobre la cosa de boda</p>
+          <div class="div-abecedario">
+            <div class="letras-abecedario">
+              <!-- En este div se crean los botones de las letras -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Juego memoria -->
+      <section class="section-juego-memoria">
+        <div >
+          <h2 class="h2juegos">Encuentra las cosa que se usa en una boda !</h2>
+        </div>
+        <div class="secciones-memoria">
+            <div class="tabla-memoria">
+              <!-- En este div se crean los botones de las imagenes -->
+            </div>      
+          <div class="section2-memoria">
+            <p class="aciertos-memo estadisticas">Aciertos: 0</p>
+            <p class="movimientos-memo estadisticas">Movimientos: 0</p>
+            <p class="tiempo-memo estadisticas">Tiempo: 45 segundos</p>
+            <div class="botones-memo">
+              <button class="btn btn2 nuevo-memo" >Otra ronda!</button>
+              <button class="btn btn2 volver-memo">Volver al inicio</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Quiz novios -->
+      <section class="section-quiz-novios">
+        <div class="h2-preguntas-respuestas">
+          <div >
+            <h2 class="h2juegos">no vale este bottom me dio peresa programar ??</h2>
+          </div>
+         
+      <div class="none">
+        <img src="img/Memo-1.png" class="img-memo-1"><img src="img/Memo-2.png" class="img-memo-2"><img src="img/Memo-3.png" class="img-memo-3"><img src="img/Memo-4.png" class="img-memo-4"><img src="img/Memo-5.png" class="img-memo-5"><img src="img/Memo-6.png" class="img-memo-6"><img src="img/Memo-7.png" class="img-memo-7"><img  src="img/Memo-8.png" class="img-memo-8"><img src="img/Memo-9.png" class="img-memo-9"><img src="img/Memo-10.png" class="img-memo-10"><img src="img/back-memo.png" class="img-memo-back"><img src="img/ahorcadoFin.png">
+      </div>
+      <div1 >
+        <video width="640" height="360" controls>
+            <source src="Andrea.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div1>
+    
+    
+    </main>
+
+    <script src="script1.js"></script>
+    <script src="script1-ahorcado.js"></script>
+    <script src="script1-memo.js"></script>
+    
+  </body>
+</html>

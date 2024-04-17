@@ -1,0 +1,188 @@
+@media screen and (orientation:landscape){
+    body{
+        height: 85vh;
+    }
+    main{
+        height: 100%;
+        width: 85vw;
+        justify-content: space-between;
+    }
+    h1{
+        font-size: 3vw;
+        display: block;
+    }
+    #nyk{
+        font-size: 4.5vw;
+    }
+    .pantalla-inicial{
+        display: flex;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .seleccion-pareja{
+        display: flex;
+        justify-content: center;
+    }
+    .seleccion-juegos{
+        width: 50%;
+    }
+    .btn{
+        height: 4rem;
+    }
+    .div-pareja{
+        width: 30%;
+        height: 100%;
+    }
+    .pareja{
+        max-height:20rem ;
+        height: 100%;
+    }
+    .sobre-estos-juegos{
+        margin-bottom: 3rem;
+        width: fit-content;
+        align-self: center;
+    }
+
+    .section-juego-ahorcado{
+        height: 90%;
+    }
+
+    .ahorcado-img-palabra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-palabra-pista{
+        width: 80%;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .div-imagen-ahorcado{
+        width: 40%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div-palabra{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btn-letra{
+        height: 4rem;
+        width: 4rem;       
+    }
+
+
+    .section-juego-memoria{
+        height: 100%;
+        align-items: center;
+    }
+    .section-juego-memoria h2, .section-quiz-novios h2{
+        margin-bottom: 0;
+    }
+
+    .secciones-memoria{
+        flex-direction: row;
+        width: 80%;
+    }
+    .section1-memoria{
+        justify-content: flex-start;
+        width: 100%; 
+    }
+
+    .tabla-memoria{
+        width: 90%; 
+    }
+    .div-btn-memo{
+        max-height: 12rem;
+    }
+    .btn-memo{
+        width: 15vh;
+        height: 15vh;
+        max-width: 11rem;
+        max-height: 11rem;
+    }
+    .section2-memoria{
+        justify-content: center;
+        width: 50%;
+        height: 70vh;
+    }
+    .nuevo-memo, .volver-memo{
+        width: 100%;
+        height: 4rem;
+    }
+    .estadisticas{
+        height: 5rem;
+    }
+
+    .secciones-quiz p{
+        margin: 0;
+        height: 2.5rem;
+    }
+
+    .section-quiz-novios, .fin-quiz{
+        height: 85vh;
+    }
+
+    .section-quiz-novios .btn, .fin-quiz .btn{
+        width: 40%;
+        height: 3.7rem;
+    }
+
+    .presentacion-form{
+        flex-direction: row;
+    }
+    .presentacion-form p{
+        display: flex;
+        justify-self: center;
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 0.5rem 0;
+    }
+    form{
+        width: 60%;
+        font-size: 1.4rem;
+        margin: 0.8rem auto;
+    }
+    .enviar-form{
+        height: 3.5rem;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .label-input{
+        width: 48%;
+    }
+
+    input, textarea{
+        height: 3.5rem;
+        width: 100%;
+    
+    }
+    textarea{
+        height: 5rem;
+        padding: 1rem;
+    }
+
+    .volver-sobre{
+        width: 40%;
+        height: 4rem;
+    }
+
+    
+
+}
+@media screen and (orientation:landscape){
+
+}

@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    font-size:62.5%;
+    font-family:'Raleway',sans-serif;
+    color:#2b2b2b;
+    box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(138deg, rgba(139, 245, 231, 0.6) 34%, rgba(136, 12, 63, 0.6) 100%) center center no-repeat fixed;
+    /* background-image: url('img/Background.webp') ; */
+    background-size: cover;
+    height: auto;
+}
+main{
+    width: 90vw;
+    height: 100%;
+    margin: auto;
+    font-size: 1.4rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+.pantalla-inicial{
+    justify-content: space-between;
+    height: 90vh;
+}
+h1{
+    font-family: 'Raleway', 'cursive';
+    font-size: 5.7vw;
+    margin:1rem 0rem;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+#nyk{
+    font-family: 'White Star Free', 'cursive';
+    font-size: 10vw;
+    margin:1rem 0rem;
+}
+.seleccion-pareja{
+    width: 100%;
+}
+.seleccion-juegos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    font-size: 4vw;
+    margin-bottom: 1rem;
+}
+.btn{
+    font-family:'Raleway',sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    border: ridge #2b2b2b99 2px;
+    border-radius: 1rem;
+    background-color: transparent;
+    height: 5rem;
+    width: 90%;
+    margin: 0.6rem 0px;
+    box-shadow: 0.15rem 0.15rem 0.5rem #2b2b2b80;
+}
+.btn2{
+    width: 31.5%;
+    border: ridge #2b2b2b50 1px;
+    background-color: #2b2b2b10;
+    margin: 0.4rem 0.3rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem #2b2b2b80;
+}
+.btn:active{
+    box-shadow: inset 0.1rem 0.1rem 0.5rem #2b2b2b80;
+    border: ridge #2b2b2b80 2px;
+}
+.btn2:active{
+    border: none #2b2b2b80 2px;
+}
+.btn2:disabled, #btn-letra:disabled{
+    box-shadow: inset 0.1rem 0.1rem 0.5rem #2b2b2b80;
+    border: none #2b2b2b20 2px;
+}
+.h2juegos{
+    font-size: 2.4rem;
+    margin:1rem 0rem;
+    text-align: center;
+    font-family: 'Raleway', 'cursive';
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 3rem;
+}
+
+.div-pareja{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pareja{
+    height: 35vh;
+}
+.puntaje-total{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.puntaje-aclaracion{
+    margin: 1rem 0;
+}
+.sobre-estos-juegos{
+    margin: 1.5rem 0;
+    cursor: pointer;
+}
+.section-sobre{
+    width:100%;
+    height:auto;
+    display: none;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+.section-sobre p{
+    line-height: 2rem;
+}
+.presentacion-form{
+    width:100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 2rem auto;
+    font-style: italic;
+}
+.inputs{
+    width: 100%;
+    text-align: center;
+}
+input, textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    border: ridge #2b2b2b28 2px;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    height: 4rem;
+    width: 100%;
+    margin: 0.6rem 0px;
+    box-shadow: 0.05rem 0.05rem 0.3rem #2b2b2b80;
+    resize: none;
+    padding: 0.5rem 1rem;
+}
+textarea{
+    height: 8rem;
+    padding: 1rem;
+}
+.enviar-form{
+    width: 100%;
+    height: 4rem;
+}
+.volver-sobre{
+    margin: 2rem 0;
+}
+.none{
+    display: none;
+}
+div1 {
+    text-align: center; /* Centra el video */
+    margin-bottom: 20px; /* Espacio debajo del video */
+}
+
